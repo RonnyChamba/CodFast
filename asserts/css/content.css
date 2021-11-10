@@ -1,0 +1,48 @@
+.cards {
+  grid-template-rows: 90% auto;
+  grid-template-columns: minmax(250px, 1fr);
+  grid-gap: 10px 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card:hover {
+  transform: scale(1);
+}
+/* Ocultar el link que esta sobre la imagen */
+.card__enlace {
+  display: none;
+  position: static;
+}
+
+.card__img textarea {
+  overflow: auto;
+
+  /* Evitar que rompa la linea, agg la propieda overflow para poder desplazarse */
+  white-space: pre;
+}
+.botones {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.botones a {
+  background-color: #ffc107;
+  display: inline-block;
+  width: 50%;
+  max-width: 150px;
+  font-size: 1.2rem;
+  color: #8d8047;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+.botones a:hover {
+  background-color: rgb(236, 183, 24);
+}
+@media screen and (min-width: 768px) {
+  .cards {
+    grid-template-columns: minmax(250px, 1fr);
+  }
+}
