@@ -20,5 +20,5 @@ if ($inputBusqueda != null) {
 }
 
 $title.addEventListener("click", (e) => {
-  window.open("/index.php", "_self");
+  window.open("index.php", "_self");
 });
