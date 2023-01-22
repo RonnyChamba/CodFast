@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="asserts/css/normalize.css" />
     <link rel="stylesheet" href="asserts/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Codfast</title>
     <link rel="icon" type="image/png" href="./asserts/img/logo.png" />
   </head>
@@ -23,9 +24,13 @@
           </div>
 
           <div class="redes_sociales">
-            <span class="icon-facebook" title="Facebook"></span>
-            <span class="icon-mail" title="Email"></span>
-            <span class="icon-phone" title="Teléfono"> </span>
+            <a href="https://github.com/RonnyChamba" target="_blank" class="icon-">
+            <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ronny-chamba-8273911b7/" target="_blank" class="icon-">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
           </div>
         </div>
       </header>
